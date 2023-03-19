@@ -28,6 +28,11 @@ flux,NaughtyAttributes, DoTween,XiaoCaoTool
 试玩:
 
 
+## 配置
+为了防止Flux乱连,角色的动画机分editor和runtime
+
+## 使用
+和Flux的基本用法差不多,编辑完技能保存就可以
 
 
 
