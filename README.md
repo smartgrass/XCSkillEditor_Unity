@@ -1,20 +1,20 @@
 # XCSkillEditor 小草技能编辑器 (施工中)
 ## 简介
-基于Flux扩展开发的UnityAct技能编辑器, 集成Mirror支持局域网联机.
+基于Flux扩展开发的UnityAct技能编辑器, 集成Mirror支持局域网联机,实现只通过配置就可以制作技能
 
-实现只通过配置就可以制作技能
+### 警告:
 
-项目内的美术素材仅供演示使用, 禁止用于商业相关.
+项目的代码耦合性比较高,移植起来应该也没那么方便...建议还是了解下思路就行了.
+
+项目内的美术素材源自网络,仅供演示使用, 禁止用于商业相关.
 
 ## 引用
 
-flux,NaughtyAttributes, DoTween,XiaoCaoTool
+插件/工具: flux,NaughtyAttributes,Mirror,DoTween,XiaoCaoTool, QianMo/X-PostProcessing-Library(后处理),
 
-网络框架: Mirror ,优点是不用写服务器代码, 缺点只适用于小型项目
+网络框架: Mirror ,优点是不用写服务器代码, 缺点只适用于小型项目,如果想改成纯单机项目比较麻烦
 
-后处理: QianMo/X-PostProcessing-Library , 毛星云大佬的
-
-强烈推荐NaughtyAttributes,是一个轻量级的编辑器扩展, 也推荐它的作者的开源项目
+NaughtyAttributes: 是一个轻量级的编辑器扩展,强烈推荐,也推荐它的作者的开源项目
 
 其次是XiaoCaoTool,受NaughtyAttributes启发,扩展制作的个人开发小工具
 
