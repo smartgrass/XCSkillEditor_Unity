@@ -4,13 +4,13 @@
 
 ### 警告:
 
-项目的代码耦合性比较高,移植起来应该也没那么方便...建议还是了解下思路就行了.
+项目的代码和Mirror高度绑定,耦合性比较高,不推荐移植...
 
 项目内的美术素材源自网络,仅供演示使用, 禁止用于商业相关.
 
 ## 引用
 
-插件/工具: flux,NaughtyAttributes,Mirror,DoTween,XiaoCaoTool, QianMo/X-PostProcessing-Library(后处理),
+插件/工具: Flux,NaughtyAttributes,Mirror,DoTween,XiaoCaoTool, QianMo/X-PostProcessing-Library(后处理)
 
 网络框架: Mirror ,优点是不用写服务器代码, 缺点只适用于小型项目,如果想改成纯单机项目比较麻烦
 
