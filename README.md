@@ -14,13 +14,13 @@
 
 ## 引用
 
-插件/工具: Flux,NaughtyAttributes,Mirror,DoTween,XiaoCaoTool, QianMo/X-PostProcessing-Library(后处理)
+插件/工具: Flux,NaughtyAttributes,Mirror,XiaoCaoTool[https://github.com/smartgrass/XiaoCaoTools], QianMo/X-PostProcessing-Library[https://github.com/QianMo/X-PostProcessing-Library](后处理) ，DoTween
 
-网络框架: Mirror ,优点是不用写服务器代码, 缺点只适用于小型项目,如果只想单机逻辑改起来有难度。
+Mirror: 网络框架 ,优点是不用写服务器代码, 缺点只适用于小型项目,如果只想单机逻辑改起来有难度。
 
 NaughtyAttributes: 是一个轻量级的编辑器扩展,强烈推荐,也推荐它的作者的开源项目
 
-其次是XiaoCaoTool,受NaughtyAttributes启发,扩展制作的个人开发小工具
+XiaoCaoTool:受NaughtyAttributes启发,制作的XiaoCaoWindow编辑器扩展，快速搭建编辑器窗口，也包含部分开发小工具
 
 
 ## 展示
