@@ -14,13 +14,13 @@
 
 ## 引用
 
-插件/工具: Flux,[NaughtyAttributes](https://github.com/dbrizov/NaughtyAttributes),Mirror,[XiaoCaoTool](https://github.com/smartgrass/XiaoCaoTools), [QianMo/X-PostProcessing-Library](https://github.com/QianMo/X-PostProcessing-Library)(后处理) ，DoTween
+插件/工具: Flux ,[NaughtyAttributes](https://github.com/dbrizov/NaughtyAttributes) ,[Mirror](https://github.com/MirrorNetworking/Mirror) ,[XiaoCaoTool](https://github.com/smartgrass/XiaoCaoTools) ,[QianMo/X-PostProcessing-Library](https://github.com/QianMo/X-PostProcessing-Library)(后处理) ,DoTween
 
-Mirror: 网络框架 ,优点是不用写服务器代码, 缺点只适用于小型项目,如果只想单机逻辑改起来有难度。
+[Mirror](https://github.com/MirrorNetworking/Mirror): 网络框架 ,优点是不用写服务器代码, 缺点只适用于小型项目,如果只想单机逻辑改起来有难度。
 
-NaughtyAttributes: 是一个轻量级的编辑器扩展,强烈推荐,也推荐它的作者的开源项目
+[NaughtyAttributes](https://github.com/dbrizov/NaughtyAttributes): 是一个轻量级的编辑器扩展,强烈推荐,也推荐它的作者的开源项目
 
-XiaoCaoTool:受NaughtyAttributes启发,制作的XiaoCaoWindow编辑器扩展，快速搭建编辑器窗口，也包含部分开发小工具
+[XiaoCaoTool](https://github.com/smartgrass/XiaoCaoTools):受NaughtyAttributes启发,制作的XiaoCaoWindow编辑器扩展，快速搭建编辑器窗口，也包含部分开发小工具
 
 
 ## 展示
