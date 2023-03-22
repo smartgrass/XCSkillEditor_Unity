@@ -14,7 +14,7 @@
 
 ## 引用
 
-插件/工具: Flux,NaughtyAttributes,Mirror,XiaoCaoTool[https://github.com/smartgrass/XiaoCaoTools], QianMo/X-PostProcessing-Library[https://github.com/QianMo/X-PostProcessing-Library](后处理) ，DoTween
+插件/工具: Flux,[NaughtyAttributes](https://github.com/dbrizov/NaughtyAttributes),Mirror,[XiaoCaoTool](https://github.com/smartgrass/XiaoCaoTools), [QianMo/X-PostProcessing-Library](https://github.com/QianMo/X-PostProcessing-Library)(后处理) ，DoTween
 
 Mirror: 网络框架 ,优点是不用写服务器代码, 缺点只适用于小型项目,如果只想单机逻辑改起来有难度。
 
