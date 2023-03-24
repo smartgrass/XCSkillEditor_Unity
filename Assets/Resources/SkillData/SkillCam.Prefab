@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &366960499124667937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5893493051872249454}
+  - component: {fileID: 1990058948025048397}
+  m_Layer: 0
+  m_Name: SkillCam_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5893493051872249454
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366960499124667937}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7706031205581697483}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1990058948025048397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366960499124667937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: SkillCam
+  skillName: SkillCam_1
+  speed: 1.25
+  ObjEvent:
+    range:
+      _start: 2
+      _end: 46
+    eName: Main/Camera_Skill_3
+    isLocalTrueOnly: 0
+    isEffect: 0
+    transfromType: 0
+    LoadObj: {fileID: 0}
+    playerOffset: {x: 0, y: 0, z: 0}
+    startPos: {x: -0.056424752, y: 3.6431668, z: -13.9733925}
+    startRotation: {x: 13.753078, y: 0.12579249, z: 0.03045355}
+    startScale: {x: 1, y: 1, z: 1}
+  AnimEvents:
+    Events:
+    - range:
+        _start: 7
+        _end: 26
+      eName: CamAnimator
+      isLocalTrueOnly: 0
+      blenderLength: 0
+      startOffset: 0
+      speed: 1
+      isBackToIdle: 0
+  MoveEvents:
+    Events: []
+  RotateEvents:
+    Events: []
+  ScaleEvents:
+    Events: []
+  SwitchEvents:
+    Events: []
+  MsgEvents:
+    Events: []
+  TriggerEvents:
+    Events: []
+  subSkillData: []
+--- !u!1 &9176226932713948730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7706031205581697483}
+  - component: {fileID: 2857618823078672308}
+  m_Layer: 0
+  m_Name: SkillCam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7706031205581697483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9176226932713948730}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5893493051872249454}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2857618823078672308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9176226932713948730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: SkillCam
+  skillName: SkillCam
+  speed: 1.25
+  ObjEvent:
+    range:
+      _start: 0
+      _end: 0
+    eName: 
+    isLocalTrueOnly: 0
+    isEffect: 0
+    transfromType: 0
+    LoadObj: {fileID: 0}
+    playerOffset: {x: 0, y: 0, z: 0}
+    startPos: {x: 0, y: 0, z: 0}
+    startRotation: {x: 0, y: 0, z: 0}
+    startScale: {x: 1, y: 1, z: 1}
+  AnimEvents:
+    Events:
+    - range:
+        _start: 0
+        _end: 57
+      eName: Attack_Nor_3
+      isLocalTrueOnly: 0
+      blenderLength: 0
+      startOffset: 0
+      speed: 1
+      isBackToIdle: 0
+  MoveEvents:
+    Events: []
+  RotateEvents:
+    Events: []
+  ScaleEvents:
+    Events: []
+  SwitchEvents:
+    Events: []
+  MsgEvents:
+    Events: []
+  TriggerEvents:
+    Events: []
+  subSkillData:
+  - {fileID: 1990058948025048397}

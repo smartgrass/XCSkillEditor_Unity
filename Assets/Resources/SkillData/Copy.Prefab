@@ -1,0 +1,426 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1790357830318456724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5499034341359509651}
+  - component: {fileID: 8172532456796024734}
+  m_Layer: 0
+  m_Name: Copy_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5499034341359509651
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790357830318456724}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1642527705958745231}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8172532456796024734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790357830318456724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: Copy
+  skillName: Copy_3
+  speed: 1
+  AnimEvents:
+    owerName: 
+    Events: []
+  MoveEvents:
+    owerName: 
+    Events: []
+  ScaleEvents:
+    owerName: 
+    Events: []
+  EffectEvents:
+    owerName: 
+    Events:
+    - range:
+        _start: 66
+        _end: 80
+      eName: SkillEffet/SkillObj105
+      objEventType: 0
+      transfromType: 0
+      hasCustomEvent: 0
+      playerOffset: {x: 0, y: 0, z: 0}
+      startPos: {x: 0.4376074, y: 1.6112983, z: 0}
+      startRotation: {x: -0, y: 0, z: 349.6393}
+      startScale: {x: 1, y: 1, z: 1}
+  ObjEvent:
+    owerName: 
+    Events: []
+  SwitchEvents:
+    owerName: 
+    Events: []
+  MsgEvents:
+    owerName: 
+    Events: []
+  TriggerEvents:
+    owerName: 
+    Events: []
+  subSkillData: []
+--- !u!1 &7275214066313433645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1642527705958745231}
+  - component: {fileID: 3299309142020880193}
+  m_Layer: 0
+  m_Name: Copy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1642527705958745231
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275214066313433645}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3563403870499920352}
+  - {fileID: 4919534842986368157}
+  - {fileID: 5499034341359509651}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3299309142020880193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275214066313433645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: Copy
+  skillName: Copy
+  speed: 1
+  AnimEvents:
+    owerName: 
+    Events:
+    - range:
+        _start: 0
+        _end: 25
+      eName: SkillC_Dash_Small
+      blenderLength: 0
+      startOffset: 0.13333334
+      speed: 1
+      isBackToIdle: 0
+    - range:
+        _start: 25
+        _end: 73
+      eName: Attack_Fair4
+      blenderLength: 0.13333334
+      startOffset: 0
+      speed: 1
+      isBackToIdle: 0
+    - range:
+        _start: 73
+        _end: 109
+      eName: SkillG_Down_Turn
+      blenderLength: 0.06666667
+      startOffset: 0.06666667
+      speed: 1
+      isBackToIdle: 0
+  MoveEvents:
+    owerName: 
+    Events:
+    - range:
+        _start: 4
+        _end: 11
+      eName: 
+      startVec: {x: 0, y: 0, z: 0}
+      endVec: {x: 0, y: 0, z: 1}
+      moveType: 3
+      cc: {fileID: 0}
+      isStartDetal: 1
+      startAmgle: {x: 0, y: 0, z: 0}
+      startDetal: {x: 0, y: 0, z: 0}
+    - range:
+        _start: 34
+        _end: 37
+      eName: 
+      startVec: {x: 0, y: 0, z: 1}
+      endVec: {x: 0, y: 0, z: 1.5}
+      moveType: 3
+      cc: {fileID: 0}
+      isStartDetal: 1
+      startAmgle: {x: 0, y: 0, z: 0}
+      startDetal: {x: 0, y: 0, z: 0}
+    - range:
+        _start: 43
+        _end: 46
+      eName: 
+      startVec: {x: 0, y: 0, z: 1.5}
+      endVec: {x: 0, y: 0, z: 2}
+      moveType: 3
+      cc: {fileID: 0}
+      isStartDetal: 1
+      startAmgle: {x: 0, y: 0, z: 0}
+      startDetal: {x: 0, y: 0, z: 0}
+    - range:
+        _start: 57
+        _end: 62
+      eName: 
+      startVec: {x: 0, y: 0, z: 2}
+      endVec: {x: 0, y: 0, z: 2.5}
+      moveType: 3
+      cc: {fileID: 0}
+      isStartDetal: 1
+      startAmgle: {x: 0, y: 0, z: 0}
+      startDetal: {x: 0, y: 0, z: 0}
+    - range:
+        _start: 66
+        _end: 71
+      eName: 
+      startVec: {x: 0, y: 0, z: 2.5}
+      endVec: {x: 0, y: 0, z: 3}
+      moveType: 3
+      cc: {fileID: 0}
+      isStartDetal: 1
+      startAmgle: {x: 0, y: 0, z: 0}
+      startDetal: {x: 0, y: 0, z: 0}
+    - range:
+        _start: 79
+        _end: 93
+      eName: 
+      startVec: {x: 0, y: 0, z: 3}
+      endVec: {x: 0, y: 3, z: 3.5}
+      moveType: 3
+      cc: {fileID: 0}
+      isStartDetal: 1
+      startAmgle: {x: 0, y: 0, z: 0}
+      startDetal: {x: 0, y: 0, z: 0}
+    - range:
+        _start: 98
+        _end: 104
+      eName: 
+      startVec: {x: 0, y: 3, z: 3.5}
+      endVec: {x: 0, y: 0, z: 4}
+      moveType: 3
+      cc: {fileID: 0}
+      isStartDetal: 1
+      startAmgle: {x: 0, y: 0, z: 0}
+      startDetal: {x: 0, y: 0, z: 0}
+  ScaleEvents:
+    owerName: 
+    Events: []
+  EffectEvents:
+    owerName: 
+    Events: []
+  ObjEvent:
+    owerName: 
+    Events: []
+  SwitchEvents:
+    owerName: 
+    Events: []
+  MsgEvents:
+    owerName: 
+    Events: []
+  TriggerEvents:
+    owerName: 
+    Events: []
+  subSkillData:
+  - {fileID: 5004434053328259913}
+  - {fileID: 3643374130794997599}
+  - {fileID: 8172532456796024734}
+--- !u!1 &7758953574425094700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3563403870499920352}
+  - component: {fileID: 5004434053328259913}
+  m_Layer: 0
+  m_Name: Copy_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3563403870499920352
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7758953574425094700}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1642527705958745231}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5004434053328259913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7758953574425094700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: Copy
+  skillName: Copy_1
+  speed: 1
+  AnimEvents:
+    owerName: 
+    Events: []
+  MoveEvents:
+    owerName: 
+    Events: []
+  ScaleEvents:
+    owerName: 
+    Events: []
+  EffectEvents:
+    owerName: 
+    Events:
+    - range:
+        _start: 31
+        _end: 44
+      eName: SkillEffet/Slash3_Root
+      objEventType: 0
+      transfromType: 0
+      hasCustomEvent: 0
+      playerOffset: {x: 0, y: 0, z: 0}
+      startPos: {x: 0.41, y: 0.96, z: 0}
+      startRotation: {x: 314.6774, y: 335.87283, z: 212.20586}
+      startScale: {x: 1, y: 1, z: 1}
+  ObjEvent:
+    owerName: 
+    Events: []
+  SwitchEvents:
+    owerName: 
+    Events: []
+  MsgEvents:
+    owerName: 
+    Events: []
+  TriggerEvents:
+    owerName: 
+    Events: []
+  subSkillData: []
+--- !u!1 &7900694417801681595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4919534842986368157}
+  - component: {fileID: 3643374130794997599}
+  m_Layer: 0
+  m_Name: Copy_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4919534842986368157
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7900694417801681595}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1642527705958745231}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3643374130794997599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7900694417801681595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: Copy
+  skillName: Copy_2
+  speed: 1
+  AnimEvents:
+    owerName: 
+    Events: []
+  MoveEvents:
+    owerName: 
+    Events: []
+  ScaleEvents:
+    owerName: 
+    Events: []
+  EffectEvents:
+    owerName: 
+    Events:
+    - range:
+        _start: 41
+        _end: 55
+      eName: SkillEffet/Slash3_Root
+      objEventType: 0
+      transfromType: 0
+      hasCustomEvent: 0
+      playerOffset: {x: 0, y: 0, z: 0}
+      startPos: {x: 0.41, y: 0.96, z: 0}
+      startRotation: {x: -0, y: -0, z: 75.57707}
+      startScale: {x: 1, y: 1, z: 1}
+  ObjEvent:
+    owerName: 
+    Events: []
+  SwitchEvents:
+    owerName: 
+    Events: []
+  MsgEvents:
+    owerName: 
+    Events: []
+  TriggerEvents:
+    owerName: 
+    Events: []
+  subSkillData: []

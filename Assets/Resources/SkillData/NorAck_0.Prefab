@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1473415769950764451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2770947072715463390}
+  - component: {fileID: 8687925490960875040}
+  m_Layer: 0
+  m_Name: NorAck_0_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2770947072715463390
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473415769950764451}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6823796939248676852}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8687925490960875040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473415769950764451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: NorAck_0
+  skillName: NorAck_0_1
+  speed: 1.25
+  ObjEvent:
+    range:
+      _start: 4
+      _end: 16
+    eName: SkillEffet/Using/NorAck_0
+    isLocalTrueOnly: 0
+    isEffect: 1
+    transfromType: 0
+    LoadObj: {fileID: 0}
+    playerOffset: {x: 0, y: 0, z: 0}
+    startPos: {x: 0, y: 1, z: 0}
+    startRotation: {x: -0, y: 0, z: 0}
+    startScale: {x: 1, y: 1, z: 1}
+  AnimEvents:
+    Events: []
+  MoveEvents:
+    Events: []
+  RotateEvents:
+    Events: []
+  ScaleEvents:
+    Events: []
+  SwitchEvents:
+    Events: []
+  MsgEvents:
+    Events: []
+  TriggerEvents:
+    Events:
+    - range:
+        _start: 6
+        _end: 10
+      eName: 
+      isLocalTrueOnly: 0
+      cubeRange:
+        pos: {x: 0.2, y: 0, z: 0.7}
+        rotation: {x: 0, y: 27.87, z: 0}
+        size: {x: 5, y: 0.8, z: 3.1}
+      triggerItem: {fileID: 0}
+  subSkillData: []
+--- !u!1 &7686765872797588559
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6823796939248676852}
+  - component: {fileID: 754174281397594342}
+  m_Layer: 0
+  m_Name: NorAck_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6823796939248676852
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7686765872797588559}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2770947072715463390}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &754174281397594342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7686765872797588559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: NorAck_0
+  skillName: NorAck_0
+  speed: 1.25
+  ObjEvent:
+    range:
+      _start: 0
+      _end: 0
+    eName: 
+    isLocalTrueOnly: 0
+    isEffect: 0
+    transfromType: 0
+    LoadObj: {fileID: 0}
+    playerOffset: {x: 0, y: 0, z: 0}
+    startPos: {x: 0, y: 0, z: 0}
+    startRotation: {x: 0, y: 0, z: 0}
+    startScale: {x: 1, y: 1, z: 1}
+  AnimEvents:
+    Events:
+    - range:
+        _start: 0
+        _end: 20
+      eName: Attack_2
+      isLocalTrueOnly: 0
+      blenderLength: 0
+      startOffset: 0
+      speed: 1
+      isBackToIdle: 0
+  MoveEvents:
+    Events:
+    - range:
+        _start: 6
+        _end: 8
+      eName: 
+      isLocalTrueOnly: 0
+      startVec: {x: 0, y: 0, z: 0}
+      endVec: {x: 0, y: 0, z: 0.9}
+      easeType: 7
+      cc: {fileID: 0}
+      startDetal: {x: 0, y: 0, z: 0}
+      isBezier: 0
+      lookForward: 0
+      _handlePoint: {x: 0, y: 0, z: 0}
+  RotateEvents:
+    Events: []
+  ScaleEvents:
+    Events: []
+  SwitchEvents:
+    Events:
+    - range:
+        _start: 7
+        _end: 16
+      eName: 
+      isLocalTrueOnly: 0
+      blend: 0
+      ToFrame: 0
+      UnMoveTime: 0.33333334
+      InputType: 2
+      keyCode: 0
+    - range:
+        _start: 19
+        _end: 23
+      eName: 
+      isLocalTrueOnly: 0
+      blend: 0
+      ToFrame: 0
+      UnMoveTime: 0
+      InputType: 1
+      keyCode: 0
+  MsgEvents:
+    Events: []
+  TriggerEvents:
+    Events: []
+  subSkillData:
+  - {fileID: 8687925490960875040}

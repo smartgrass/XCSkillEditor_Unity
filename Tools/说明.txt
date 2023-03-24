@@ -1,0 +1,1 @@
+config文件夹是MiniTemplate

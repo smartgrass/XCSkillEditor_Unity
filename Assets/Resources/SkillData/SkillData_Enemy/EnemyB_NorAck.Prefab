@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8019075933699166537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5876192804031068128}
+  - component: {fileID: 8056689523172116294}
+  m_Layer: 0
+  m_Name: EnemyB_NorAck_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5876192804031068128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8019075933699166537}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4964771216945066880}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8056689523172116294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8019075933699166537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: EnemyB_NorAck
+  skillName: EnemyB_NorAck_1
+  speed: 1
+  ObjEvent:
+    range:
+      _start: 20
+      _end: 46
+    eName: SkillEffet/Using/Sword_1
+    isLocalTrueOnly: 0
+    isEffect: 1
+    transfromType: 0
+    LoadObj: {fileID: 0}
+    playerOffset: {x: 0, y: 0, z: 0}
+    startPos: {x: 0, y: 1.5, z: 0}
+    startRotation: {x: -0, y: 0, z: 0}
+    startScale: {x: 1, y: 1, z: 1}
+  AnimEvents:
+    Events: []
+  MoveEvents:
+    Events: []
+  RotateEvents:
+    Events: []
+  ScaleEvents:
+    Events: []
+  SwitchEvents:
+    Events: []
+  MsgEvents:
+    Events: []
+  TriggerEvents:
+    Events:
+    - range:
+        _start: 22
+        _end: 32
+      eName: 
+      isLocalTrueOnly: 0
+      cubeRange:
+        pos: {x: 0.42, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0}
+        size: {x: 3.77, y: 4.1, z: 1}
+      triggerItem: {fileID: 0}
+  subSkillData: []
+--- !u!1 &8082984663465490504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4964771216945066880}
+  - component: {fileID: 2097952116312137606}
+  m_Layer: 0
+  m_Name: EnemyB_NorAck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4964771216945066880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8082984663465490504}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5876192804031068128}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2097952116312137606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8082984663465490504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: EnemyB_NorAck
+  skillName: EnemyB_NorAck
+  speed: 1
+  ObjEvent:
+    range:
+      _start: 0
+      _end: 0
+    eName: 
+    isLocalTrueOnly: 0
+    isEffect: 0
+    transfromType: 0
+    LoadObj: {fileID: 0}
+    playerOffset: {x: 0, y: 0, z: 0}
+    startPos: {x: 0, y: 0, z: 0}
+    startRotation: {x: 0, y: 0, z: 0}
+    startScale: {x: 1, y: 1, z: 1}
+  AnimEvents:
+    Events:
+    - range:
+        _start: 0
+        _end: 54
+      eName: attack_01
+      isLocalTrueOnly: 0
+      blenderLength: 0
+      startOffset: 0
+      speed: 1
+      isBackToIdle: 0
+  MoveEvents:
+    Events: []
+  RotateEvents:
+    Events: []
+  ScaleEvents:
+    Events: []
+  SwitchEvents:
+    Events: []
+  MsgEvents:
+    Events: []
+  TriggerEvents:
+    Events: []
+  subSkillData:
+  - {fileID: 8056689523172116294}

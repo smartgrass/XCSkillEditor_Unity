@@ -1,0 +1,379 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4397236245287009354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5392718422431554027}
+  - component: {fileID: 6579682890740019765}
+  m_Layer: 0
+  m_Name: 2_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5392718422431554027
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4397236245287009354}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8785922904694588317}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6579682890740019765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4397236245287009354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: 2
+  skillName: 2_3
+  speed: 1
+  ObjEvent:
+    range:
+      _start: 24
+      _end: 33
+    eName: SkillEffet/Using/RuningAck
+    isLocalTrueOnly: 0
+    isEffect: 1
+    transfromType: 0
+    LoadObj: {fileID: 0}
+    playerOffset: {x: 0, y: 0, z: 0}
+    startPos: {x: 0, y: 1, z: 0}
+    startRotation: {x: -0, y: -0, z: 143.11855}
+    startScale: {x: 1, y: 1, z: 1}
+  AnimEvents:
+    Events: []
+  MoveEvents:
+    Events: []
+  RotateEvents:
+    Events: []
+  ScaleEvents:
+    Events: []
+  SwitchEvents:
+    Events: []
+  MsgEvents:
+    Events: []
+  TriggerEvents:
+    Events:
+    - range:
+        _start: 26
+        _end: 31
+      eName: 
+      isLocalTrueOnly: 0
+      cubeRange:
+        pos: {x: 0, y: 0, z: 0.56}
+        rotation: {x: 0, y: 0, z: 0}
+        size: {x: 4.25, y: 1, z: 3.13}
+      triggerItem: {fileID: 0}
+  subSkillData: []
+--- !u!1 &4521088753800222949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8657939106522210404}
+  - component: {fileID: 3196309187889899163}
+  m_Layer: 0
+  m_Name: 2_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8657939106522210404
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4521088753800222949}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8785922904694588317}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3196309187889899163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4521088753800222949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: 2
+  skillName: 2_1
+  speed: 1
+  ObjEvent:
+    range:
+      _start: 2
+      _end: 15
+    eName: SkillEffet/Using/RuningAck
+    isLocalTrueOnly: 0
+    isEffect: 1
+    transfromType: 0
+    LoadObj: {fileID: 0}
+    playerOffset: {x: 0, y: 0, z: 0}
+    startPos: {x: 0, y: 1, z: 0}
+    startRotation: {x: -0, y: 0, z: 0}
+    startScale: {x: 1, y: 1, z: 1}
+  AnimEvents:
+    Events: []
+  MoveEvents:
+    Events: []
+  RotateEvents:
+    Events: []
+  ScaleEvents:
+    Events: []
+  SwitchEvents:
+    Events: []
+  MsgEvents:
+    Events: []
+  TriggerEvents:
+    Events:
+    - range:
+        _start: 4
+        _end: 9
+      eName: 
+      isLocalTrueOnly: 0
+      cubeRange:
+        pos: {x: 0, y: 0, z: 0.56}
+        rotation: {x: 0, y: 0, z: 0}
+        size: {x: 4.25, y: 0.8, z: 3.13}
+      triggerItem: {fileID: 0}
+  subSkillData: []
+--- !u!1 &5293173186222621373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1969599362881444768}
+  - component: {fileID: 464078584575831706}
+  m_Layer: 0
+  m_Name: 2_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1969599362881444768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5293173186222621373}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8785922904694588317}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &464078584575831706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5293173186222621373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: 2
+  skillName: 2_2
+  speed: 1
+  ObjEvent:
+    range:
+      _start: 10
+      _end: 24
+    eName: SkillEffet/Using/RuningAck
+    isLocalTrueOnly: 0
+    isEffect: 1
+    transfromType: 0
+    LoadObj: {fileID: 0}
+    playerOffset: {x: 0, y: 0, z: 0}
+    startPos: {x: 0, y: 1, z: 0}
+    startRotation: {x: -0, y: 0, z: 0}
+    startScale: {x: 1, y: 1, z: 1}
+  AnimEvents:
+    Events: []
+  MoveEvents:
+    Events: []
+  RotateEvents:
+    Events: []
+  ScaleEvents:
+    Events: []
+  SwitchEvents:
+    Events: []
+  MsgEvents:
+    Events: []
+  TriggerEvents:
+    Events:
+    - range:
+        _start: 12
+        _end: 17
+      eName: 
+      isLocalTrueOnly: 0
+      cubeRange:
+        pos: {x: 0, y: 0, z: 0.56}
+        rotation: {x: 0, y: 0, z: 0}
+        size: {x: 4.25, y: 0.8, z: 3.13}
+      triggerItem: {fileID: 0}
+  subSkillData: []
+--- !u!1 &8621845459477523566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8785922904694588317}
+  - component: {fileID: 4520143416892737112}
+  m_Layer: 0
+  m_Name: 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8785922904694588317
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8621845459477523566}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8657939106522210404}
+  - {fileID: 1969599362881444768}
+  - {fileID: 5392718422431554027}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4520143416892737112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8621845459477523566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: 2
+  skillName: 2
+  speed: 1
+  ObjEvent:
+    range:
+      _start: 0
+      _end: 0
+    eName: 
+    isLocalTrueOnly: 0
+    isEffect: 0
+    transfromType: 0
+    LoadObj: {fileID: 0}
+    playerOffset: {x: 0, y: 0, z: 0}
+    startPos: {x: 0, y: 0, z: 0}
+    startRotation: {x: 0, y: 0, z: 0}
+    startScale: {x: 1, y: 1, z: 1}
+  AnimEvents:
+    Events:
+    - range:
+        _start: 0
+        _end: 39
+      eName: Attack_Nor_3
+      isLocalTrueOnly: 0
+      blenderLength: 0
+      startOffset: 0
+      speed: 1
+      isBackToIdle: 1
+  MoveEvents:
+    Events:
+    - range:
+        _start: 0
+        _end: 6
+      eName: 
+      isLocalTrueOnly: 0
+      startVec: {x: 0, y: 0, z: 0}
+      endVec: {x: 0, y: 0, z: 1}
+      easeType: 7
+      cc: {fileID: 0}
+      startDetal: {x: 0, y: 0, z: 0}
+      isBezier: 0
+      lookForward: 0
+      _handlePoint: {x: 0, y: 0, z: 0}
+    - range:
+        _start: 9
+        _end: 11
+      eName: 
+      isLocalTrueOnly: 0
+      startVec: {x: 0, y: 0, z: 1}
+      endVec: {x: -0.1562289, y: 0, z: 2}
+      easeType: 7
+      cc: {fileID: 0}
+      startDetal: {x: 0, y: 0, z: 0}
+      isBezier: 0
+      lookForward: 0
+      _handlePoint: {x: 0, y: 0, z: 0}
+  RotateEvents:
+    Events: []
+  ScaleEvents:
+    Events: []
+  SwitchEvents:
+    Events:
+    - range:
+        _start: 29
+        _end: 34
+      eName: 
+      isLocalTrueOnly: 0
+      blend: 0
+      ToFrame: 0
+      UnMoveTime: 0.40000004
+      InputType: 2
+      keyCode: 0
+  MsgEvents:
+    Events: []
+  TriggerEvents:
+    Events: []
+  subSkillData:
+  - {fileID: 3196309187889899163}
+  - {fileID: 464078584575831706}
+  - {fileID: 6579682890740019765}

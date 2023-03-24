@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8009809909210313290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6830005732357180418}
+  - component: {fileID: 8716343386004648278}
+  m_Layer: 0
+  m_Name: EnmeyB_AI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6830005732357180418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8009809909210313290}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8716343386004648278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8009809909210313290}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b1a054144622394c9a10652f9ba7d1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CheckR: 50
+  seeAngle: 180
+  curDistance: 2.3272536
+  _curActName: 
+  _curActState: 0
+  FarActR_Rate: 0.6
+  DamageBreakTime: 0.6
+  HideSpeedRate: 1
+  BreakDefTime: 5
+  angleSpeed: 3
+  minDetalAngle: 10
+  ackTime: 1
+  aimTime: 1.5
+  aIActions:
+  - des: 
+    aIActions:
+    - power: 5
+      actName: EnemyB_NorAck
+      actType: 0
+      actMsg: EnemyB_NorAck
+      targetDis: 2
+      moveTime: 1.8
+      endWaitTime: 0
+      hideTime: 0.5
+      isHide_LookAt: 0
+      maxUseTime: 4
+      nextActName: 
+      useTimer: 0
+      state: 0
+    - power: 5
+      actName: EnemyB_Bomb
+      actType: 0
+      actMsg: EnemyB_Bomb
+      targetDis: 6
+      moveTime: 1.8
+      endWaitTime: 0
+      hideTime: 0
+      isHide_LookAt: 0
+      maxUseTime: 2
+      nextActName: 
+      useTimer: 0
+      state: 0
+    - power: 5
+      actName: EnemyB_CombAck
+      actType: 0
+      actMsg: EnemyB_CombAck
+      targetDis: 3.5
+      moveTime: 1.8
+      endWaitTime: 0
+      hideTime: 2.5
+      isHide_LookAt: 0
+      maxUseTime: 2
+      nextActName: 
+      useTimer: 0
+      state: 0
+    IsDisable: 0
+  FarActGroup:
+    des: 
+    aIActions: []
+    IsDisable: 0
+  breakDefAct:
+    power: 1
+    actName: 
+    actType: 0
+    actMsg: NorAck
+    targetDis: 3
+    moveTime: 1.5
+    endWaitTime: 0
+    hideTime: 0.5
+    isHide_LookAt: 0
+    maxUseTime: 2
+    nextActName: 
+    useTimer: 0
+    state: 0
+  curGroupIndex: 0

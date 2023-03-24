@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6011630116804384891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2627121608334589758}
+  - component: {fileID: 4113737147669577978}
+  m_Layer: 0
+  m_Name: Dragon_NorAck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2627121608334589758
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6011630116804384891}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2614787369109092449}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4113737147669577978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6011630116804384891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: Dragon_NorAck
+  skillName: Dragon_NorAck
+  speed: 1
+  ObjEvent:
+    range:
+      _start: 0
+      _end: 0
+    eName: 
+    isLocalTrueOnly: 0
+    isEffect: 0
+    transfromType: 0
+    playerOffset: {x: 0, y: 0, z: 0}
+    startPos: {x: 0, y: 0, z: 0}
+    startRotation: {x: 0, y: 0, z: 0}
+    startScale: {x: 1, y: 1, z: 1}
+  AnimEvents:
+    Events:
+    - range:
+        _start: 1
+        _end: 70
+      eName: Deagon_NorAck
+      isLocalTrueOnly: 0
+      blenderLength: 0
+      startOffset: 0
+      speed: 1
+      isBackToIdle: 1
+  MoveEvents:
+    Events:
+    - range:
+        _start: 16
+        _end: 26
+      eName: 
+      isLocalTrueOnly: 0
+      startVec: {x: 0, y: 0, z: 0}
+      endVec: {x: 0, y: 0, z: 1}
+      easeType: 7
+      cc: {fileID: 0}
+      startDetal: {x: 0, y: 0, z: 0}
+      isBezier: 0
+      lookForward: 0
+      _handlePoint: {x: 0, y: 0, z: 0}
+  RotateEvents:
+    Events: []
+  ScaleEvents:
+    Events: []
+  SwitchEvents:
+    Events: []
+  MsgEvents:
+    Events: []
+  TriggerEvents:
+    Events: []
+  subSkillData:
+  - {fileID: 3634226802445774224}
+--- !u!1 &7322765587940115395
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2614787369109092449}
+  - component: {fileID: 3634226802445774224}
+  m_Layer: 0
+  m_Name: Dragon_NorAck_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2614787369109092449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7322765587940115395}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2627121608334589758}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3634226802445774224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7322765587940115395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: Dragon_NorAck
+  skillName: Dragon_NorAck_1
+  speed: 1
+  ObjEvent:
+    range:
+      _start: 15
+      _end: 38
+    eName: SkillEffet/SwordSlash2/Dragon_NorAck
+    isLocalTrueOnly: 0
+    isEffect: 1
+    transfromType: 0
+    playerOffset: {x: 0, y: 0, z: 0}
+    startPos: {x: -0.74, y: 1.89, z: 3.42}
+    startRotation: {x: 303.77612, y: 82.453514, z: 146.24002}
+    startScale: {x: 3.4374998, y: 3.4375, z: 3.4375}
+  AnimEvents:
+    Events: []
+  MoveEvents:
+    Events: []
+  RotateEvents:
+    Events: []
+  ScaleEvents:
+    Events: []
+  SwitchEvents:
+    Events: []
+  MsgEvents:
+    Events: []
+  TriggerEvents:
+    Events:
+    - range:
+        _start: 18
+        _end: 31
+      eName: 
+      isLocalTrueOnly: 0
+      cubeRange:
+        pos: {x: 1.01, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 39.16}
+        size: {x: 2.72, y: 3.3, z: 1.2}
+      triggerItem: {fileID: 0}
+  subSkillData: []

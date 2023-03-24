@@ -1,0 +1,270 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &228317600267316753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1657125790556794772}
+  - component: {fileID: 3790528903415041744}
+  m_Layer: 0
+  m_Name: EnemyB_CombAck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1657125790556794772
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228317600267316753}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 610389954199749820}
+  - {fileID: 1191558524019041079}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3790528903415041744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228317600267316753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: EnemyB_CombAck
+  skillName: EnemyB_CombAck
+  speed: 1
+  ObjEvent:
+    range:
+      _start: 0
+      _end: 0
+    eName: 
+    isLocalTrueOnly: 0
+    isEffect: 0
+    transfromType: 0
+    LoadObj: {fileID: 0}
+    playerOffset: {x: 0, y: 0, z: 0}
+    startPos: {x: 0, y: 0, z: 0}
+    startRotation: {x: 0, y: 0, z: 0}
+    startScale: {x: 1, y: 1, z: 1}
+  AnimEvents:
+    Events:
+    - range:
+        _start: 0
+        _end: 79
+      eName: skill_siwangzhifu_01
+      isLocalTrueOnly: 0
+      blenderLength: 0
+      startOffset: 0
+      speed: 1
+      isBackToIdle: 0
+  MoveEvents:
+    Events:
+    - range:
+        _start: 46
+        _end: 64
+      eName: 
+      isLocalTrueOnly: 0
+      startVec: {x: 0, y: 0, z: 0}
+      endVec: {x: 0, y: 0, z: 3}
+      easeType: 7
+      cc: {fileID: 0}
+      startDetal: {x: 0, y: 0, z: 0}
+      isBezier: 0
+      lookForward: 0
+      _handlePoint: {x: 0, y: 0, z: 0}
+  RotateEvents:
+    Events: []
+  ScaleEvents:
+    Events: []
+  SwitchEvents:
+    Events: []
+  MsgEvents:
+    Events: []
+  TriggerEvents:
+    Events: []
+  subSkillData:
+  - {fileID: 3728039149398536967}
+  - {fileID: 7091129274816828105}
+--- !u!1 &3651689668380740521
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 610389954199749820}
+  - component: {fileID: 3728039149398536967}
+  m_Layer: 0
+  m_Name: EnemyB_CombAck_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &610389954199749820
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3651689668380740521}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1657125790556794772}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3728039149398536967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3651689668380740521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: EnemyB_CombAck
+  skillName: EnemyB_CombAck_1
+  speed: 1
+  ObjEvent:
+    range:
+      _start: 46
+      _end: 63
+    eName: SkillEffet/Using/Sword_1
+    isLocalTrueOnly: 0
+    isEffect: 1
+    transfromType: 0
+    LoadObj: {fileID: 0}
+    playerOffset: {x: 0, y: 0, z: 0}
+    startPos: {x: 0, y: 1.5, z: 0}
+    startRotation: {x: -0, y: 0, z: 0}
+    startScale: {x: 1, y: 1, z: 1}
+  AnimEvents:
+    Events: []
+  MoveEvents:
+    Events: []
+  RotateEvents:
+    Events: []
+  ScaleEvents:
+    Events: []
+  SwitchEvents:
+    Events: []
+  MsgEvents:
+    Events: []
+  TriggerEvents:
+    Events:
+    - range:
+        _start: 47
+        _end: 66
+      eName: 
+      isLocalTrueOnly: 0
+      cubeRange:
+        pos: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0}
+        size: {x: 4.2, y: 1.2, z: 4.2}
+      triggerItem: {fileID: 0}
+  subSkillData: []
+--- !u!1 &8413266834364414300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1191558524019041079}
+  - component: {fileID: 7091129274816828105}
+  m_Layer: 0
+  m_Name: EnemyB_CombAck_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1191558524019041079
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8413266834364414300}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1657125790556794772}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7091129274816828105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8413266834364414300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: EnemyB_CombAck
+  skillName: EnemyB_CombAck_2
+  speed: 1
+  ObjEvent:
+    range:
+      _start: 55
+      _end: 74
+    eName: SkillEffet/Using/Sword_1
+    isLocalTrueOnly: 0
+    isEffect: 1
+    transfromType: 0
+    LoadObj: {fileID: 0}
+    playerOffset: {x: 0, y: 0, z: 0}
+    startPos: {x: 0, y: 1.5, z: 0}
+    startRotation: {x: -0, y: 0, z: 0}
+    startScale: {x: 1, y: 1, z: 1}
+  AnimEvents:
+    Events: []
+  MoveEvents:
+    Events: []
+  RotateEvents:
+    Events: []
+  ScaleEvents:
+    Events: []
+  SwitchEvents:
+    Events: []
+  MsgEvents:
+    Events: []
+  TriggerEvents:
+    Events:
+    - range:
+        _start: 56
+        _end: 75
+      eName: 
+      isLocalTrueOnly: 0
+      cubeRange:
+        pos: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0}
+        size: {x: 4.2, y: 1.2, z: 4.2}
+      triggerItem: {fileID: 0}
+  subSkillData: []

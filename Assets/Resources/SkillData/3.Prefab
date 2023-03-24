@@ -1,0 +1,554 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1077584286577379284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2717881872794003768}
+  - component: {fileID: 9029101393547458043}
+  m_Layer: 0
+  m_Name: 3_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2717881872794003768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077584286577379284}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2481466269265382621}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9029101393547458043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077584286577379284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: 3
+  skillName: 3_3
+  speed: 1
+  ObjEvent:
+    range:
+      _start: 0
+      _end: 70
+    eName: SkillEffet/Fin/GroundEffect
+    isLocalTrueOnly: 0
+    isEffect: 1
+    transfromType: 2
+    LoadObj: {fileID: 0}
+    playerOffset: {x: 0, y: 0, z: 0}
+    startPos: {x: 0, y: 0.21, z: 0}
+    startRotation: {x: -0, y: 0, z: 0}
+    startScale: {x: 1, y: 1, z: 1}
+  AnimEvents:
+    Events: []
+  MoveEvents:
+    Events: []
+  RotateEvents:
+    Events: []
+  ScaleEvents:
+    Events: []
+  SwitchEvents:
+    Events: []
+  MsgEvents:
+    Events: []
+  TriggerEvents:
+    Events:
+    - range:
+        _start: 48
+        _end: 50
+      eName: 
+      isLocalTrueOnly: 0
+      cubeRange:
+        pos: {x: 0, y: 1.5, z: 2.47}
+        rotation: {x: 0, y: 0, z: 0}
+        size: {x: 7, y: 4, z: 7}
+      triggerItem: {fileID: 0}
+    - range:
+        _start: 63
+        _end: 67
+      eName: 
+      isLocalTrueOnly: 0
+      cubeRange:
+        pos: {x: 0, y: 1.5, z: 2.47}
+        rotation: {x: 0, y: 0, z: 0}
+        size: {x: 7, y: 4, z: 7}
+      triggerItem: {fileID: 0}
+  subSkillData: []
+--- !u!1 &1981404721442385411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2481466269265382621}
+  - component: {fileID: 5538112445128050307}
+  m_Layer: 0
+  m_Name: 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2481466269265382621
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981404721442385411}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3753261675093026179}
+  - {fileID: 5397259263700666708}
+  - {fileID: 2717881872794003768}
+  - {fileID: 8735974233742245269}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5538112445128050307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981404721442385411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: 3
+  skillName: 3
+  speed: 1
+  ObjEvent:
+    range:
+      _start: 0
+      _end: 0
+    eName: 
+    isLocalTrueOnly: 0
+    isEffect: 0
+    transfromType: 0
+    LoadObj: {fileID: 0}
+    playerOffset: {x: 0, y: 0, z: 0}
+    startPos: {x: 0, y: 0, z: 0}
+    startRotation: {x: 0, y: 0, z: 0}
+    startScale: {x: 1, y: 1, z: 1}
+  AnimEvents:
+    Events:
+    - range:
+        _start: 0
+        _end: 49
+      eName: Attack_Fair3
+      isLocalTrueOnly: 0
+      blenderLength: 0
+      startOffset: 0
+      speed: 1
+      isBackToIdle: 0
+    - range:
+        _start: 55
+        _end: 71
+      eName: Attack_Fair3
+      isLocalTrueOnly: 0
+      blenderLength: 0
+      startOffset: 1.4000001
+      speed: 1
+      isBackToIdle: 0
+  MoveEvents:
+    Events:
+    - range:
+        _start: 32
+        _end: 33
+      eName: 
+      isLocalTrueOnly: 0
+      startVec: {x: 0, y: 0, z: 0}
+      endVec: {x: 0, y: 0, z: 2.5}
+      easeType: 7
+      cc: {fileID: 0}
+      startDetal: {x: 0, y: 0, z: 0}
+      isBezier: 0
+      lookForward: 0
+      _handlePoint: {x: 0, y: 0, z: 0}
+    - range:
+        _start: 56
+        _end: 59
+      eName: 
+      isLocalTrueOnly: 0
+      startVec: {x: 0, y: 0, z: 2}
+      endVec: {x: 0, y: 0, z: 0}
+      easeType: 7
+      cc: {fileID: 0}
+      startDetal: {x: 0, y: 0, z: -0.5}
+      isBezier: 0
+      lookForward: 0
+      _handlePoint: {x: 0, y: 0, z: 0}
+  RotateEvents:
+    Events: []
+  ScaleEvents:
+    Events: []
+  SwitchEvents:
+    Events:
+    - range:
+        _start: 65
+        _end: 71
+      eName: 
+      isLocalTrueOnly: 0
+      blend: 0
+      ToFrame: 0
+      UnMoveTime: 0
+      InputType: 2
+      keyCode: 0
+  MsgEvents:
+    Events:
+    - range:
+        _start: 33
+        _end: 54
+      eName: 
+      isLocalTrueOnly: 0
+      msgEType: 1
+      msgName: ActivePlayerRender
+      strMsg: 
+      floatdMsg: 0
+      boolMsg: 0
+      setOppositeOnFinish: 1
+    - range:
+        _start: 35
+        _end: 55
+      eName: 
+      isLocalTrueOnly: 0
+      msgEType: 0
+      msgName: TimeStop
+      strMsg: 
+      floatdMsg: 1.2
+      boolMsg: 0
+      setOppositeOnFinish: 1
+  TriggerEvents:
+    Events: []
+  subSkillData:
+  - {fileID: 1016030868524324076}
+  - {fileID: 4305937649627748670}
+  - {fileID: 9029101393547458043}
+  - {fileID: 8743728840106557196}
+--- !u!1 &2049699978339354200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3753261675093026179}
+  - component: {fileID: 1016030868524324076}
+  m_Layer: 0
+  m_Name: 3_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3753261675093026179
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049699978339354200}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2481466269265382621}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1016030868524324076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049699978339354200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: 3
+  skillName: 3_1
+  speed: 1
+  ObjEvent:
+    range:
+      _start: 32
+      _end: 48
+    eName: CreatAsset/Pose/PosesTF
+    isLocalTrueOnly: 0
+    isEffect: 0
+    transfromType: 2
+    LoadObj: {fileID: 0}
+    playerOffset: {x: 0, y: 0, z: 0}
+    startPos: {x: 0.2, y: 0.35, z: 4.67}
+    startRotation: {x: 0, y: 320.45044, z: 0}
+    startScale: {x: 1, y: 1, z: 1}
+  AnimEvents:
+    Events:
+    - range:
+        _start: 33
+        _end: 47
+      eName: PoseAnimator
+      isLocalTrueOnly: 0
+      blenderLength: 0
+      startOffset: 0
+      speed: 1
+      isBackToIdle: 0
+  MoveEvents:
+    Events: []
+  RotateEvents:
+    Events: []
+  ScaleEvents:
+    Events: []
+  SwitchEvents:
+    Events: []
+  MsgEvents:
+    Events: []
+  TriggerEvents:
+    Events: []
+  subSkillData: []
+--- !u!1 &3040862007041221879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8735974233742245269}
+  - component: {fileID: 8743728840106557196}
+  m_Layer: 0
+  m_Name: 3_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8735974233742245269
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3040862007041221879}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2481466269265382621}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8743728840106557196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3040862007041221879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: 3
+  skillName: 3_4
+  speed: 1
+  ObjEvent:
+    range:
+      _start: 33
+      _end: 71
+    eName: Main/Camera_Skill_3
+    isLocalTrueOnly: 1
+    isEffect: 0
+    transfromType: 2
+    LoadObj: {fileID: 0}
+    playerOffset: {x: 0, y: 0, z: 0}
+    startPos: {x: -0.017999649, y: 3.63302, z: -10.451521}
+    startRotation: {x: 13.753078, y: 0.12579249, z: 0.03045355}
+    startScale: {x: 1, y: 1, z: 1}
+  AnimEvents:
+    Events:
+    - range:
+        _start: 34
+        _end: 72
+      eName: CamAnimator
+      isLocalTrueOnly: 0
+      blenderLength: 0
+      startOffset: 0
+      speed: 1
+      isBackToIdle: 0
+  MoveEvents:
+    Events: []
+  RotateEvents:
+    Events: []
+  ScaleEvents:
+    Events: []
+  SwitchEvents:
+    Events: []
+  MsgEvents:
+    Events: []
+  TriggerEvents:
+    Events: []
+  subSkillData: []
+--- !u!1 &5297613474948379198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5397259263700666708}
+  - component: {fileID: 4305937649627748670}
+  m_Layer: 0
+  m_Name: 3_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5397259263700666708
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5297613474948379198}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2481466269265382621}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4305937649627748670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5297613474948379198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f97935788dd6e44bd386b1f1d67b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillId: 3
+  skillName: 3_2
+  speed: 1
+  ObjEvent:
+    range:
+      _start: 31
+      _end: 78
+    eName: SkillEffet/Fin/BreakEffect
+    isLocalTrueOnly: 0
+    isEffect: 1
+    transfromType: 2
+    LoadObj: {fileID: 0}
+    playerOffset: {x: 0, y: 0, z: 0}
+    startPos: {x: 0, y: 0, z: 5.1}
+    startRotation: {x: -0, y: 0, z: 0}
+    startScale: {x: 2, y: 2, z: 2}
+  AnimEvents:
+    Events: []
+  MoveEvents:
+    Events: []
+  RotateEvents:
+    Events: []
+  ScaleEvents:
+    Events: []
+  SwitchEvents:
+    Events: []
+  MsgEvents:
+    Events: []
+  TriggerEvents:
+    Events:
+    - range:
+        _start: 50
+        _end: 51
+      eName: 
+      isLocalTrueOnly: 0
+      cubeRange:
+        pos: {x: 0, y: 1.5, z: 0}
+        rotation: {x: 0, y: 0, z: 0}
+        size: {x: 6, y: 4, z: 6}
+      triggerItem: {fileID: 0}
+    - range:
+        _start: 52
+        _end: 53
+      eName: 
+      isLocalTrueOnly: 0
+      cubeRange:
+        pos: {x: 0, y: 1.5, z: 0}
+        rotation: {x: 0, y: 0, z: 0}
+        size: {x: 6, y: 4, z: 6}
+      triggerItem: {fileID: 0}
+    - range:
+        _start: 54
+        _end: 55
+      eName: 
+      isLocalTrueOnly: 0
+      cubeRange:
+        pos: {x: 0, y: 1.5, z: 0}
+        rotation: {x: 0, y: 0, z: 0}
+        size: {x: 6, y: 4, z: 6}
+      triggerItem: {fileID: 0}
+    - range:
+        _start: 56
+        _end: 57
+      eName: 
+      isLocalTrueOnly: 0
+      cubeRange:
+        pos: {x: 0, y: 1.5, z: 0}
+        rotation: {x: 0, y: 0, z: 0}
+        size: {x: 6, y: 4, z: 6}
+      triggerItem: {fileID: 0}
+    - range:
+        _start: 58
+        _end: 59
+      eName: 
+      isLocalTrueOnly: 0
+      cubeRange:
+        pos: {x: 0, y: 1.5, z: 0}
+        rotation: {x: 0, y: 0, z: 0}
+        size: {x: 6, y: 4, z: 6}
+      triggerItem: {fileID: 0}
+    - range:
+        _start: 60
+        _end: 61
+      eName: 
+      isLocalTrueOnly: 0
+      cubeRange:
+        pos: {x: 0, y: 1.5, z: 0}
+        rotation: {x: 0, y: 0, z: 0}
+        size: {x: 6, y: 4, z: 6}
+      triggerItem: {fileID: 0}
+  subSkillData: []

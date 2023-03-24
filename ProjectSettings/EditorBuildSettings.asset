@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Mirror/Examples/Tanks/Scenes/Scene.unity
+    guid: 83f9d2fb76f5742448c6e51f258327a2
+  - enabled: 1
+    path: Assets/_Scenes/LoginScene.unity
+    guid: 4b89f9668e057ed409302e497a25bccc
+  - enabled: 1
+    path: Assets/_Scenes/GameScene.unity
+    guid: 922a7a59fef213f41b359522488e2d74
+  - enabled: 0
+    path: Assets/_Scenes/SkillEditor.unity
+    guid: 6e18a775eb135b54b819d4b084d58ce1
+  - enabled: 1
+    path: Assets/Mirror/Examples/Room/Scenes/OnlineScene.unity
+    guid: d7a6763559b31854586c9e49916273ef
+  - enabled: 1
+    path: Assets/Mirror/Examples/Room/Scenes/RoomScene.unity
+    guid: 48478f4d522f96945b8396f376299d3a
+  m_configObjects: {}

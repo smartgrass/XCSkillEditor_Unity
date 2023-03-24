@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cbebcdd12fcc55458780303ef2363f6, type: 3}
+  m_Name: SkiillKeyCodeSo
+  m_EditorClassIdentifier: 
+  skillKeyList:
+  - skillId: 1
+    keyCode: 49
+    cdTime: 3
+    noBreakTime: 0
+    AutoLookAngle: 20
+    AutoLookR: 10
+    sprite: {fileID: 21300000, guid: e48ea00b64c5c13459c7045777fbba11, type: 3}
+  - skillId: 4
+    keyCode: 50
+    cdTime: 3
+    noBreakTime: 0
+    AutoLookAngle: 15
+    AutoLookR: 10
+    sprite: {fileID: 21300000, guid: a3f7ee2f5c5a9964aa7cd86c3646cf97, type: 3}
+  - skillId: RunAck
+    keyCode: 51
+    cdTime: 4
+    noBreakTime: 0
+    AutoLookAngle: 10
+    AutoLookR: 10
+    sprite: {fileID: 21300000, guid: 564a2f6d2074bb545832ab9d231c701b, type: 3}
+  - skillId: SkillCam
+    keyCode: 52
+    cdTime: 2
+    noBreakTime: 0
+    AutoLookAngle: 10
+    AutoLookR: 10
+    sprite: {fileID: 21300000, guid: 9d84431224553bf43ae786eb0e81147b, type: 3}
+  - skillId: Roll
+    keyCode: 0
+    cdTime: 2
+    noBreakTime: 0
+    AutoLookAngle: 10
+    AutoLookR: 10
+    sprite: {fileID: 21300000, guid: 1d30e429bc4a2014485c5c4e97dffb49, type: 3}
+  defautSprite: {fileID: 21300000, guid: 9d84431224553bf43ae786eb0e81147b, type: 3}

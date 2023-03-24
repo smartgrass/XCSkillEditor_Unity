@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872e1b1280564481c9d17aeab1ccfb09, type: 3}
+  m_Name: FluxSettings
+  m_EditorClassIdentifier: 
+  _eventColors:
+  - _str: Flux.FPlayAnimationEvent
+    _color: {r: 0.2509804, g: 0.37254903, b: 0.5882353, a: 0.5803922}
+  - _str: Flux.FSetActiveEvent
+    _color: {r: 0.83823526, g: 0.47165608, b: 0.23421282, a: 0.8}
+  - _str: Flux.FTweenRotationEvent
+    _color: {r: 0.83823526, g: 0.47165608, b: 0.23421282, a: 0.8}
+  - _str: Flux.FPlayParticleEvent
+    _color: {r: 0.2509804, g: 0.37254903, b: 0.5882353, a: 0.5803922}
+  - _str: Flux.FTweenPositionEvent
+    _color: {r: 0.2509804, g: 0.5882353, b: 0.52288103, a: 0.5803922}
+  - _str: Flux.FInputEvent
+    _color: {r: 1, g: 0, b: 0.27873182, a: 0.8}
+  - _str: Flux.FSwitchEvent
+    _color: {r: 0.6273585, g: 0.6715189, b: 1, a: 0.5803922}
+  - _str: Flux.FExitEvent
+    _color: {r: 1, g: 0, b: 0.2784314, a: 0.8}
+  - _str: Flux.FTriggerRangeEvent
+    _color: {r: 0.5368775, g: 0.23921569, b: 0.6, a: 0.8}
+  _defaultContainers:
+  - _str: Default
+    _color: {r: 0.8584906, g: 0.7653525, b: 0.7653525, a: 0.7}
+  - _str: <Container Name>
+    _color: {r: 0.14972402, g: 1, b: 0.0141509175, a: 0.7}
