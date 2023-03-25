@@ -15,12 +15,11 @@
 
 对项目有什么建议的话,欢迎留言
 
-# 引用
+## 引用
 
-### [Flux](https://assetstore.unity.com/packages/tools/animation/flux-18440) ,[Mirror](https://github.com/MirrorNetworking/Mirror), [NaughtyAttributes](https://github.com/dbrizov/NaughtyAttributes) ,
-### [XiaoCaoTool](https://github.com/smartgrass/XiaoCaoTools) ,[QianMo/X-PostProcessing-Library](https://github.com/QianMo/X-PostProcessing-Library) ,Luban,DoTween
+### [Flux](https://assetstore.unity.com/packages/tools/animation/flux-18440) ,[Mirror](https://github.com/MirrorNetworking/Mirror), [NaughtyAttributes](https://github.com/dbrizov/NaughtyAttributes) , [XiaoCaoTool](https://github.com/smartgrass/XiaoCaoTools) ,[QianMo/X-PostProcessing-Library](https://github.com/QianMo/X-PostProcessing-Library) ,Luban,DoTween
 
-### 说明:
+
 
 [Mirror](https://github.com/MirrorNetworking/Mirror): 网络框架 ,优点是不用写服务器代码, 缺点只适用于小型项目,如果只想单机逻辑改起来有难度。
 
@@ -28,6 +27,7 @@
 
 [XiaoCaoTool](https://github.com/smartgrass/XiaoCaoTools): 受NaughtyAttributes启发,制作的XiaoCaoWindow编辑器扩展，快速搭建编辑器窗口，也包含部分开发小工具
 
+*** 
 
 # 展示
 
@@ -49,10 +49,11 @@ pc试玩demo: https://share.weiyun.com/ik4O15hD)
 
     保存:右上角的保存按钮 或者 在Scene里选中Sequence 右键/Xiaocao/保存选中Seq
 
+*** 
 
 # 一些默认设定
 
-### 1.Sequence配置:
+## 1.Sequence配置:
 
 (1)一个角色有两个Animator, 是为了防止Flux编辑时乱连, 在Editor场景中使用editor
 
@@ -62,14 +63,16 @@ pc试玩demo: https://share.weiyun.com/ik4O15hD)
 
 <img src="https://github.com/smartgrass/ReadMeImgs/blob/main/SkillEditor/SeqConfig.png" width= "900"/>
 
-### 2.技能特效都得是预制体,并且放于Resources目录下
+## 2.技能特效都得是预制体,并且放于Resources目录下
 
 一般放于Resources/SkillEffet下,当然你也可以修改成别的加载方式
 
 加载代码可以看RunTimePoolManager的LoadResPoolObj()
 
+ 
 
-### 3.技能坐标系设定
+## 3.技能坐标系设定
+
 
 分玩家坐标系和世界坐标
 
@@ -89,7 +92,7 @@ pc试玩demo: https://share.weiyun.com/ik4O15hD)
 
 <img src="https://github.com/smartgrass/ReadMeImgs/blob/main/SkillEditor/TransfromType.png" width= "900"/>
 
-### 4.常用的Aseet位置
+## 4.常用的Aseet位置
 
 Resources/Charecter  角色
 
@@ -98,7 +101,7 @@ Resources/ResUsing 配置
     其中SkiillKeyCodeSo是配置技能按键和图标和cd,没配置按键的技能则为被动技能
   
   
-### 5.编辑器菜单功能
+## 5.编辑器菜单功能
 
 技能的excel配置(Luban): 菜单Tools/配置 
 
