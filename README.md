@@ -5,7 +5,7 @@
 ## 声明
 项目内的美术素材仅供演示使用, 禁止用于商业相关.
 
-<img src="https://github.com/smartgrass/ReadMeImgs/blob/main/SkillEditor/maomao.png" width= "400"/>
+<img src="https://github.com/smartgrass/ReadMeImgs/blob/main/SkillEditor/maomao.jpg" width= "400"/>
 
 ## 一些话
 
