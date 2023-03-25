@@ -32,9 +32,9 @@
 
 # 展示
 
-本github版本只包含技能编辑器核心部分,和效果demo不同!
+### 本github版本只包含技能编辑器核心部分,和视频的效果demo不同
 
-效果demo展示:
+效果demo展示: https://www.bilibili.com/video/BV18m4y1675a
 
 pc试玩demo: https://share.weiyun.com/ik4O15hD)
 
