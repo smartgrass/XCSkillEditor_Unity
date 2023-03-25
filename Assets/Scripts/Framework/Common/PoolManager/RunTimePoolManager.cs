@@ -14,6 +14,11 @@ public class RunTimePoolManager : MonoSingleton<RunTimePoolManager>
 
     public Dictionary<string, Object> IDTypePool = new Dictionary<string, Object>() ;
 
+    public override void Init()
+    {
+        base.Init();
+        HitEffectParent = new GameObject("HitEffectParent").transform;
+    }
 
     //ResPool
     public GameObject LoadResPoolObj(string resPath,float AutoRecycel = 0)
@@ -146,9 +151,9 @@ public class RunTimePoolManager : MonoSingleton<RunTimePoolManager>
     }
 
 
+    public Transform HitEffectParent;
     public Dictionary<string, TypeLoopPool<GameObject>> LoopPoolDic = new Dictionary<string, TypeLoopPool<GameObject>>();
 
-    //HitEffectPool;
 
     public GameObject GetHitEffect(string ID)
     {
@@ -169,8 +174,9 @@ public class RunTimePoolManager : MonoSingleton<RunTimePoolManager>
             TypeLoopPool<GameObject> newPool = new TypeLoopPool<GameObject>(Prefab, 13);
             LoopPoolDic.Add(ID, newPool);
         }
-
-        return LoopPoolDic[ID].GetOne(); //HitEffect
+        GameObject one = LoopPoolDic[ID].GetOne();
+        one.transform.SetParent(HitEffectParent,true);
+        return one; //HitEffect
     }
 
 
