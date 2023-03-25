@@ -106,6 +106,9 @@ Resources/ResUsing 配置
 
 技能的excel配置(Luban): 菜单Tools/配置 
 
+     
+    使用的Luban,所以应该需要安装.net 4.0
+      
 收藏夹:菜单Tools/XiaoCao/收藏夹
 
 动画预览窗口:菜单Tools/XiaoCao/动画预览窗口
