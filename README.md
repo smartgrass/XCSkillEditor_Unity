@@ -5,6 +5,8 @@
 ## 声明
 项目内的美术素材仅供演示使用, 禁止用于商业相关.
 
+<img src="https://github.com/smartgrass/ReadMeImgs/blob/main/SkillEditor/maomao.png" width= "400"/>
+
 ## 一些话
 
 目前项目的代码和 Mirror高度绑定,耦合性比较高,不推荐移植...
@@ -18,7 +20,6 @@
 ## 引用
 
 ### [Flux](https://assetstore.unity.com/packages/tools/animation/flux-18440) ,[Mirror](https://github.com/MirrorNetworking/Mirror), [NaughtyAttributes](https://github.com/dbrizov/NaughtyAttributes) , [XiaoCaoTool](https://github.com/smartgrass/XiaoCaoTools) ,[QianMo/X-PostProcessing-Library](https://github.com/QianMo/X-PostProcessing-Library) ,Luban,DoTween
-
 
 
 [Mirror](https://github.com/MirrorNetworking/Mirror): 网络框架 ,优点是不用写服务器代码, 缺点只适用于小型项目,如果只想单机逻辑改起来有难度。
@@ -108,7 +109,5 @@ Resources/ResUsing 配置
 收藏夹:菜单Tools/XiaoCao/收藏夹
 
 动画预览窗口:菜单Tools/XiaoCao/动画预览窗口
-
-
 
 
