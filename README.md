@@ -40,6 +40,8 @@ Unity版本建议2020.3以上
 
 ### 本github版本只包含技能编辑器核心部分,和视频的效果demo不同
 
+在SkillEditor.scene只保留了几个示例技能
+
 效果demo展示: https://www.bilibili.com/video/BV18m4y1675a
 
 pc试玩demo: https://share.weiyun.com/ik4O15hD)
