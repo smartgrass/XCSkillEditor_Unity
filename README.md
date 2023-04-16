@@ -14,8 +14,6 @@ Unity版本建议2020.3以上
 ## 声明
 项目内的美术素材仅供演示使用, 禁止用于商业相关.
 
-<img src="https://github.com/smartgrass/ReadMeImgs/blob/main/SkillEditor/maomao.jpg" width= "400"/>
-
 *** 
 
 ## 思路介绍
@@ -131,5 +129,7 @@ Resources/ResUsing 配置
 收藏夹:菜单Tools/XiaoCao/收藏夹
 
 动画预览窗口:菜单Tools/XiaoCao/动画预览窗口
+
+<img src="https://github.com/smartgrass/ReadMeImgs/blob/main/SkillEditor/maomao.jpg" width= "400"/>
 
 
