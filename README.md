@@ -45,14 +45,13 @@ pc试玩demo: https://share.weiyun.com/ik4O15hD)
 
 ## 插件引用
 
-### [Flux](https://assetstore.unity.com/packages/tools/animation/flux-18440) ,[Mirror](https://github.com/MirrorNetworking/Mirror), [NaughtyAttributes](https://github.com/dbrizov/NaughtyAttributes) , [XiaoCaoTool](https://github.com/smartgrass/XiaoCaoTools) ,[QianMo/X-PostProcessing-Library](https://github.com/QianMo/X-PostProcessing-Library) ,Luban,DoTween
-
-
 [Mirror](https://github.com/MirrorNetworking/Mirror): 网络框架 ,优点是不用写服务器代码, 缺点只适用于小型项目,如果只想单机逻辑改起来有难度。
 
 [NaughtyAttributes](https://github.com/dbrizov/NaughtyAttributes): 是一个轻量级的编辑器扩展,强烈推荐,也推荐它的作者的开源项目
 
 [XiaoCaoTool](https://github.com/smartgrass/XiaoCaoTools): 受NaughtyAttributes启发,制作的XiaoCaoWindow编辑器扩展，快速搭建编辑器窗口，也包含部分开发小工具
+
+其他引用: [Flux](https://assetstore.unity.com/packages/tools/animation/flux-18440) ,[QianMo/X-PostProcessing-Library](https://github.com/QianMo/X-PostProcessing-Library) ,Luban,DoTween
 
 其他优秀框架推荐：YooAseet ,[猫刀刀的MDDSkillEngine](https://gitee.com/mtdmt/MDDSkillEngine?_from=gitee_search) ,[烟雨的et7](https://github.com/wqaetly/ET/tree/et7_fgui_yooasset_luban_huatuo) ,[MotionFramework](https://github.com/gmhevinci/MotionFramework)
 
@@ -84,13 +83,14 @@ pc试玩demo: https://share.weiyun.com/ik4O15hD)
 
 <img src="https://github.com/smartgrass/ReadMeImgs/blob/main/SkillEditor/SeqConfig.png" width= "900"/>
 
+
+
 ## 2.技能特效都得是预制体,并且放于Resources目录下
 
 一般放于Resources/SkillEffet下,当然你也可以修改成别的加载方式
 
 加载代码可以看RunTimePoolManager的LoadResPoolObj()
 
- 
 
 ## 3.技能坐标系设定
 
