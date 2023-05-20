@@ -9,7 +9,7 @@ Unity版本建议2020.3以上
 
 编译报错是dll文件丢失,目前已修复
 
-目前项目的代码和 Mirror高度绑定,耦合性比较高,不推荐移植,使用单机版本开发会更容易点
+目前项目的代码和 Mirror高度绑定，耦合性比较高，不推荐移植，使用单机版本开发会更容易点
 
 单机版本 -> [XCSkillEditor_Local](https://github.com/smartgrass/XCSkillEditor_Local) 
 
