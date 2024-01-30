@@ -12,7 +12,7 @@ using SimpleJSON;
 
 
 namespace cfg
-{
+{ 
 
 public sealed partial class SkillSettingReader
 {
